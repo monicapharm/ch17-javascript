@@ -5,11 +5,13 @@
 //Create an array `numbers` that contains the first 5 decimals of Pi
 //(e.g., 1 4 1 5 9).
 //Log out the array.
-
+var numbers = [1,4,1,5,9];
+console.log(numbers);
 
 //Use bracket notation to change the `4` in the array to a `4.2`.
 //Log out the updated array.
-
+numbers[1] = 4.2;
+console.log(numbers);
 
 //Add the number 2 to the end of the array.
 //Log out the updated array
